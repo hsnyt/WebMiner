@@ -99,3 +99,17 @@ DOWNLOAD_DELAY = 3
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+
+# Feed export settings
+FEEDS = {
+    'items.csv': {
+        'format': 'csv',
+        'encoding': 'utf8',
+        'store_empty': False,
+        'fields': None,  # ここに出力したいフィールド名のリストを指定できます
+        'indent': 0,
+        'item_export_kwargs': {
+        'export_empty_fields': True,
+        },
+    },
+}
