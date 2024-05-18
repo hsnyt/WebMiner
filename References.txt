@@ -1,0 +1,7 @@
+https://ai-inter1.com/python-scrapy-for-begginer/#st-toc-h-6
+
+実行方法
+
+scrapy.cfgファイルと同じレベルのディレクトリにいる必要がある
+
+scrapy crawl　スパイダー名
